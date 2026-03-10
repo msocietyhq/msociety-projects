@@ -2,6 +2,141 @@ import type { Project } from "@/types/project"
 
 export const projectsData: Project[] = [
     {
+        title: "const-secret",
+        link: "https://github.com/zeon256/const-secret",
+        description: "A no_std Rust library leveraging GATs and const generics for compile-time secret management.",
+        nature: "Side Project",
+        platform: "Library",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Budi",
+                avatar: "/dp/budi.jpg",
+                handle: "@zeon256",
+            },
+        ],
+    },
+    {
+        title: "Tech Debtor",
+        link: "https://pypi.org/project/tech-debtor/",
+        description: "A CLI tool that analyzes Python projects for code-level technical debt and produces prioritized, actionable reports with remediation estimates.",
+        nature: "Side Project",
+        platform: "Library",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Nayfus",
+                avatar: "/dp/nayfus.jpg",
+                handle: "@nayfusaurus",
+            },
+        ],
+    },
+    {
+        title: "Hifz Garden",
+        link: "https://hifzgarden.com",
+        description: "A spaced-repetition Quran memorisation tracker with smart recall, goal tracking, progress insights, and self-testing tools.",
+        nature: "Community Project",
+        platform: "Web App",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Aziz",
+                avatar: "/dp/aziz.jpg",
+                handle: "@modulus",
+            },
+        ],
+    },
+    {
+        title: "Lumens",
+        link: "https://lumens.so",
+        description: "An AI-powered tool that transforms product images into professional shots using templates, built for small businesses and HBBs.",
+        nature: "Startup",
+        platform: "Web App",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Faruq Rasid",
+                avatar: "/dp/ruqqq.jpg",
+                handle: "@ruqqq",
+            },
+        ],
+    },
+    {
+        title: "Mapiry",
+        link: "https://mapiry.com",
+        description: "Create beautiful, shareable maps instantly for travel guides, local recommendations, and branded content.",
+        nature: "Startup",
+        platform: "Web App",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Abu Uzayr",
+                avatar: "/dp/abuuzayr.jpg",
+                handle: "@abuuzayr",
+            },
+        ],
+    },
+    {
+        title: "Ramadan Imsakiyah Calendar",
+        link: "https://ramadan.usemeem.com",
+        description: "A clean Ramadan timetable with countdowns to iftar and sahur, Quran tracker, zikr reminders, and tarawih place listings.",
+        nature: "Community Project",
+        platform: "Web App",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Tengku Hafidz",
+                avatar: "/dp/tengkuhafidz.jpg",
+                handle: "@tengkuhafidz",
+            },
+        ],
+    },
+    {
+        title: "Fynd",
+        link: "http://fynd-web.vercel.app/",
+        description: "A swipe-based web app to help groups decide on halal places to eat without the awkward back-and-forth.",
+        nature: "Side Project",
+        platform: "Web App",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Ashiq",
+                avatar: "/dp/ashiq.jpg",
+                handle: "@Ashiqurrah",
+            },
+        ],
+    },
+    {
+        title: "Tebok",
+        link: "https://www.tebok.info",
+        description: "A self-testing quiz platform to challenge and assess your knowledge across various topics.",
+        nature: "Community Project",
+        platform: "Web App",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Azmi",
+                avatar: "/dp/azmi.jpg",
+                handle: "@azkmee",
+            },
+        ],
+    },
+    {
+        title: "Tahfiz Check",
+        link: "https://tahfizcheck.com",
+        description: "A digital platform to practice and assess Quran memorization with progress tracking.",
+        nature: "Community Project",
+        platform: "Web App",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Tengku Hafidz",
+                avatar: "/dp/tengkuhafidz.jpg",
+                handle: "@tengkuhafidz",
+            },
+        ],
+    },
+    {
         title: "Cashtrail",
         link: "https://t.me/CashTrailBot",
         description: "A Telegram bot to track expenses quickly without spreadsheets—fast add or guided step-by-step flow.",
@@ -287,21 +422,6 @@ export const projectsData: Project[] = [
         link: "https://track.je",
         description: "A no-code platform for service businesses to create custom tracking systems with real-time order status updates.",
         nature: "Startup",
-        platform: "Web App",
-        thumbnail: "",
-        contributors: [
-            {
-                name: "Tengku Hafidz",
-                avatar: "/dp/tengkuhafidz.jpg",
-                handle: "@tengkuhafidz",
-            },
-        ],
-    },
-    {
-        title: "Tahfiz Check",
-        link: "https://tahfizcheck.com",
-        description: "A digital platform to practice and assess Quran memorization with progress tracking.",
-        nature: "Community Project",
         platform: "Web App",
         thumbnail: "",
         contributors: [
